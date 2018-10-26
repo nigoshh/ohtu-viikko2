@@ -1,4 +1,3 @@
-
 package ohtu.verkkokauppa;
 
 public class Tuote {
@@ -15,7 +14,7 @@ public class Tuote {
     @Override
     public boolean equals(Object o) {
         Tuote t = (Tuote)o;
-        
+
         return id==t.id;
     }
 
@@ -30,6 +29,6 @@ public class Tuote {
     @Override
     public String toString() {
         return nimi;
-    }            
-    
+    }
+
 }

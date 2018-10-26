@@ -1,4 +1,3 @@
-
 package ohtu.verkkokauppa;
 
 import java.util.ArrayList;
