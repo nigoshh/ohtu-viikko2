@@ -1,12 +1,16 @@
 package ohtu.verkkokauppa;
 
 import java.util.*;
+import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
 
+@Component
 public class Varasto implements StorageSystem {
 
     private Logger kirjanpito;
     private HashMap<Tuote, Integer> saldot;
 
+    @Autowired
     public Varasto(Logger logger) {
         kirjanpito = logger;
         saldot = new HashMap<Tuote, Integer>();
