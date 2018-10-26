@@ -1,2 +1,4 @@
 .gradle
 build/
+/Verkkokauppa1/.nb-gradle/
+/Verkkokauppa1/private/

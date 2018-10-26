@@ -1,0 +1,3 @@
+paste into http://yuml.me/diagram/nofunky/class/
+
+[Kauppa], [Kirjanpito], [Ostoskori], [Pankki], [Tuote], [Varasto], [Viitegeneraattori], [Kauppa]*-1[Varasto], [Kauppa]*-1[Pankki], [Kauppa]1-1[Ostoskori], [Kauppa]*-1[Viitegeneraattori], [Ostoskori]*-*[Tuote], [Pankki]1-1[Kirjanpito], [Varasto]1-1[Kirjanpito], [Varasto]1-*[Tuote]
